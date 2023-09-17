@@ -1,3 +1,44 @@
+:root {
+    --primary-col: #492c9f;
+}
+
 html, body {
-    font-family: monospace;
+    font-family: sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    line-height:30px;
+}
+
+
+button {
+    background-color: var(--primary-col);
+    color: #fff;
+    border: none;
+    width: 200px;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+table, td, tr, th {
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+table {
+    border:1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(176, 184, 202);
 }

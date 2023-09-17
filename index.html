@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Main</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
-    <h1>Welcome</h1>
-    <button>Yes Button</button>
+    <div class="container">
+        <h2 id="quote-text">Empty Quote</h2>
+        <button id="get-btn">Get Quote</button>
+        <!-- <button id="post-btn">Post</button>   -->
+    </div>
+    <script type="module" src="script.js"></script>
+    <script src="axios.js"></script>
 </body>
 </html>
